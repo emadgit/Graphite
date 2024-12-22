@@ -149,7 +149,7 @@
 						<table>
 							<tr>
 								<td>
-									<TextButton label="New Document" icon="File" flush={true} action={() => editor.handle.newDocumentDialog()} />
+									<TextButton label="New Graphite Document" icon="File" flush={true} action={() => editor.handle.newDocumentDialog()} />
 								</td>
 								<td>
 									<UserInputLabel keysWithLabelsGroups={[[...platformModifiers(true), { key: "KeyN", label: "N" }]]} />
