@@ -149,7 +149,7 @@
 						<table>
 							<tr>
 								<td>
-									<TextButton label="New Graphite Document" icon="File" flush={true} action={() => editor.handle.newDocumentDialog()} />
+									<TextButton label="New Document" icon="File" flush={true} action={() => editor.handle.newDocumentDialog()} />
 								</td>
 								<td>
 									<UserInputLabel keysWithLabelsGroups={[[...platformModifiers(true), { key: "KeyN", label: "N" }]]} />
@@ -157,7 +157,7 @@
 							</tr>
 							<tr>
 								<td>
-									<TextButton label="Open Graphite Document" icon="Folder" flush={true} action={() => editor.handle.openDocument()} />
+									<TextButton label="Open Document" icon="Folder" flush={true} action={() => editor.handle.openDocument()} />
 								</td>
 								<td>
 									<UserInputLabel keysWithLabelsGroups={[[...platformModifiers(false), { key: "KeyO", label: "O" }]]} />
